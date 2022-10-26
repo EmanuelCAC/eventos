@@ -1,0 +1,23 @@
+.login-content{
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+    background-color: rgb(174, 113, 231);
+    height: 100vh;
+}
+
+.btn-login{
+    background-color: rgb(174, 113, 231);
+    color: white;
+    font-weight: 600;
+}
+
+.btn-login:hover{
+    background-color:rgb(210, 162, 255);
+    color: white;
+    font-weight: 600;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    color: white
+}
